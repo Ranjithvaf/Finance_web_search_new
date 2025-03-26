@@ -8,6 +8,7 @@ load_dotenv()
 MODEL_URL = "http://192.168.0.100:1234/v1"
 Local_llm = ChatOpenAI(
     base_url=MODEL_URL,
+    api_key="dummy-key",
     streaming=True,
     model="internlm2_5-20b-chat",
 )

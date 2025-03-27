@@ -1,6 +1,3 @@
-crewai
-crewai-tools
-streamlit
-python-dotenv
-chromadb
-sqlite3
+crewai==0.108.0
+crewai-tools==0.38.1
+streamlit==1.44.0
